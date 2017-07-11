@@ -6,13 +6,12 @@ import './Github.css'
 class Github extends Component {
   state = {
     username: "",
-
   }
 
   handleChange = (ev) => {
     this.setState({
       username: ev.target.value
-    }, () => console.log('State: ' + this.state.username))
+    })
   }
 
   handleSubmit = (ev) => {
