@@ -3,7 +3,6 @@ import { Route } from 'react-router-dom'
 import GithubUser from './GithubUser'
 import './Github.css'
 
-
 class Github extends Component {
   state = {
     username: "",
@@ -18,6 +17,7 @@ class Github extends Component {
 
   handleSubmit = (ev) => {
     ev.preventDefault()
+    this.setState({usename: ''})
     this.props.history.push(`/github/${this.state.username}`)
   }
 
