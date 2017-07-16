@@ -12,4 +12,4 @@
 * Pokemon API
 * Star Wars API
 
-__Created as part of Xtern Bootcamp_
+_Created as part of Xtern Bootcamp_
